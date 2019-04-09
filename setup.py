@@ -15,7 +15,7 @@ setup(name='img-quality',
       ],
       entry_points='''
             [console_scripts]
-            dxcluster=Img_quality.cli.main:imgq
+            dxcluster=imgq.cli.main:imgq
       ''',
       scripts=[],
       zip_safe=False)
